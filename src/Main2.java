@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// sum of numbers
 public class Main2 {
     public static void main(String[] args){
         Scanner input= new Scanner(System.in);
@@ -8,3 +9,4 @@ public class Main2 {
         System.out.println(num3);
     }
 }
+
