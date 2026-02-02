@@ -1,16 +1,31 @@
-public class Main7 {
-    //Attributes
-    String fname="John";
-    int n=10;
-    public static void main(String []args){
-        Main7 obj=new Main7();
-        obj.fname="geeya";
-        System.out.println(obj.fname);
-        System.out.println(obj.n);
-    }
+public class Java_Class {
 
-}// Accessing attributes by creating an object of the class and by using . syntax ( . )
+        public void speed( int speed){
+            System.out.println("the care speed is "+speed);
+        }
+        public void distance(){
+            System.out.println("the car distance is :");
+
+        }
+        public static void main(String []args){
+            Java_Class obj=new Java_Class();
+            obj.speed(200);
+            obj.distance();
+
+
+        }
+    }
+    //Attributes
+
+
+
+// Accessing attributes by creating an object of the class and by using . syntax ( . )
 // Acessing attribute
 //Modify attributes
-//declare the attributes as final.
+//declare the attributes as final. so we cant assign the values repeatedly .
+//Mutiple objects
+//myobj1
+//myobj2
+//Multiple Attributes
 //
+
